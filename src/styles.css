@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Dark background color for the entire app */
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #465ef7;
+    color: #fff;
+  }
+  
+  /* Add a margin around the form and table */
+  .form-container,
+  .table-container {
+    margin: 20px;
+  }
+  
+  /* Rounded corners for form and table containers */
+  .form-container,
+  .table-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Styling for the form */
+  form {
+    padding: 20px;
+  }
+
+
+.form-container {
+    background-color: #7b8cff; /* Set the background color */
+    padding: 20px; /* Add some padding around the form */
+    border-radius: 10px; /* Apply rounded corners */
+    border: 1px solid azure;
+    border-style: double;
+  }
+  
+  
+  /* Custom font for the app */
+  body {
+    font-family: 'Arial', sans-serif; /* Replace 'Arial' with your desired font */
+  }
+  
+/* Styles for the table rows */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ff7920;
+  }
+  
+  th,
+    td {
+    padding: 10px;
+    text-align: left;
+    }
+
+    /* Dark color for table rows */
+    tr {
+    background-color: #aaf0f9;
+    }
+
+    /* White color for table headers */
+    th {
+    background-color: white;
+    color: black;
+    }
+
+    /* White color for table cells */
+    td {
+    color: white;
+    }
